@@ -1,0 +1,232 @@
+body{
+    margin:65px 135px 0 ;
+   
+}
+section{
+    margin-bottom: 100px;
+}
+/* shared */
+.orange{
+    color: #FF5400;
+}
+.text{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.span1{
+    color: #FF5400;
+    font-weight: 700;
+}
+
+.div1{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+ 
+}
+.div2{
+    display: flex;
+    gap: 44px;
+    color: var(--Dark-02, #424247);
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.div3{
+    display: none;
+}
+.img1{
+    width: 48px;
+height: 56.008px;
+flex-shrink: 0;
+}
+.webname{
+    color: #131318;
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+/* nav finished */
+}
+.banner{
+    text-align: center;
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) ,url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 1180px;
+height: 500px;
+flex-shrink: 0;
+border-radius: 16px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.title1{
+    color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 23px;
+}
+.para2{
+    color: #FFF;
+    width: 676px;
+    margin-bottom: 45px;
+}
+.input{
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
+input::placeholder,select,.btn1{
+    color: rgba(19, 19, 24, 0.50);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+border: none;
+
+}
+.pera3{
+    padding-left: 5px;
+    
+}
+.btn1{
+    color: #FFF;
+    font-weight: 700;
+    border-radius: 8px;
+background: #FF5400;
+}
+
+#input1{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+background: #FFF;
+border: none;
+padding-right: 85px;
+}
+ /* header finished */
+
+
+
+
+/* media   query */
+@media screen and (max-width:576px) {
+    body{
+        margin:20px 20px 0 ;
+}
+section{
+    margin-bottom: 25px;
+}
+.orange{
+    color: #FF5400;}
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .div1{
+        display: flex;
+        gap: 8px;
+        align-items: center;
+     
+    }
+    .img1{
+        width: 28.724px;
+height: 33.516px;
+flex-shrink: 0;
+    }
+    .webname{
+        color: #131318;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    .div2{
+        display: none;
+        
+    }
+     .div3{ 
+        display: flex;
+        width: 24px;
+       height: 24px;
+    flex-shrink: 0;
+    margin-right: 25px;
+    }
+    .banner{
+        text-align: center;
+        background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) ,url('Images/Group\ 13\ \(1\)\ \(1\).png');
+        width: 335px;
+        height: 693px;
+        flex-shrink: 0;
+    border-radius: 16px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .title1{
+        font-size: 22px;
+    }
+    .para2{
+        color: #FFF;
+        width: 305px;
+        margin-bottom: 30px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .input{
+        display: flex;
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items:center;
+        gap: 16px;
+    }#input1{
+        width: 88px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding-right: 85px;
+    }
+    /* header finished */
+
+
+}
