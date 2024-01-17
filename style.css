@@ -2,6 +2,9 @@ body{
     margin:65px 135px 0 ;
    
 }
+.section1{
+    margin-top: -50px;
+}
 section{
     margin-bottom: 100px;
 }
@@ -21,7 +24,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .span1{
     color: #FF5400;
@@ -135,6 +138,192 @@ border: none;
 padding-right: 85px;
 }
  /* header finished */
+.section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img5{
+    width: 540px;
+height: 550px;
+flex-shrink: 0;
+border-radius: 16px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.div5{
+    padding-bottom: 24px;
+}
+.title5{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.para5{
+    width: 550px;
+}
+.para6{
+    padding-bottom: 15px;
+}
+.para7{
+    padding-bottom: 10px;
+}
+/* Section 2 finished */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section3{
+    text-align: center;
+    
+}
+.title11{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.para8{
+    padding-bottom: 28px;
+}
+.para10 ,.para11,.para12,.para13,.para14,.para15,.para16 {
+    /* width: 573px;
+height: 300px;
+flex-shrink: 0; */
+border-radius: 16px;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+border:none;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.para10{
+    background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 5.png');
+    grid-area:mal ;
+    width: 603px;
+height: 300px;
+flex-shrink: 0;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.para11{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url(Images/Rectangle\ 8.png);
+    grid-area: indo;
+    width: 603px;
+height: 300px;
+flex-shrink: 0;background-size: cover;
+background-repeat: no-repeat;
+}
+.para12{
+    background:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url('Images/Rectangle\ 6.png ') ;
+    background-repeat: no-repeat;
+    grid-area:sri ;
+    width: 384px;
+height: 286px;
+flex-shrink: 0;background-size: cover;
+background-repeat: no-repeat;
+}
+.para13{
+    background:  linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url('Images/Rectangle\ 7.png');grid-area:nam;
+    width: 505px;
+height: 286px;
+flex-shrink: 0;background-size: cover;
+background-repeat: no-repeat;
+
+}
+.para14{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url('Images/Rectangle\ 9.png') ;grid-area:kash;
+    width: 324px;
+height: 286px;
+flex-shrink: 0;background-size: cover;
+background-repeat: no-repeat;
+}
+.para15{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url('Images/Rectangle\ 11.png');grid-area:ban;
+    width: 483px;
+height: 300px;
+flex-shrink: 0;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.para16{
+    background:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url('Images/Rectangle\ 10.png') ;
+    grid-area:band;
+    width: 723px;
+height: 300px;
+flex-shrink: 0;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.div10{
+    display: grid;
+    /* gap: 24px; */
+    grid-template-areas: 
+    "mal mal mal mal indo indo indo indo"
+    "sri sri nam nam nam nam kash kash"
+    "ban ban ban band band band band band";
+}
+/* Section 3 finished */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -142,10 +331,11 @@ padding-right: 85px;
 /* media   query */
 @media screen and (max-width:576px) {
     body{
-        margin:20px 20px 0 ;
+        margin:0px 20px  ;
+        margin-top: 50px;
 }
 section{
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 .orange{
     color: #FF5400;}
@@ -153,7 +343,8 @@ section{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
+
     }
 
     .div1{
@@ -217,7 +408,14 @@ flex-shrink: 0;
         flex-direction: column;
         align-items:center;
         gap: 16px;
-    }#input1{
+    }
+    coloumn,.section2{
+        flex-direction: column;
+        align-items:center;
+    }
+    
+    
+    #input1{
         width: 88px;
         height: 52px;
         flex-shrink: 0;
@@ -227,6 +425,85 @@ flex-shrink: 0;
     padding-right: 85px;
     }
     /* header finished */
+
+
+
+    .img5{
+        width: 335px;
+height: 342px;
+flex-shrink: 0;
+    }
+.title5{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: normal;
+}
+.para5{
+    width: 335px;
+    font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.div5{
+    padding-bottom: 16px;
+}
+/* Section2 finished */
+
+
+
+.title11{
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+.para10 ,.para11,.para12,.para13,.para14,.para15,.para16 {
+    /* width: 573px;
+height: 300px;
+flex-shrink: 0; */
+border-radius: 16px;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border:none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.para10 ,.para11,.para12,.para13,.para14,.para15,.para16{
+    width: 335px;
+height: 176px;
+flex-shrink: 0;
+margin: 10px auto;
+}
+.div10{
+    display: grid;
+     gap: 0px;
+    grid-template-areas: 
+    "mal"
+    "indo "
+    "sri"
+    "nam"
+    "kash"
+    "ban"
+    "band";}
+/*  Section 3 */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
