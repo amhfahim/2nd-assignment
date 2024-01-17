@@ -1,4 +1,4 @@
-.body1{
+body{
     margin:65px 135px 0 ;
    
 }
@@ -94,14 +94,14 @@ margin-bottom: 23px;
     margin-bottom: 45px;
 }
 .input{
-    display: inline-flex;.
+    display: inline-flex;
 padding: 16px;
 align-items: flex-start;
 gap: 24px;
 border-radius: 8px;
 background: rgba(255, 255, 255, 0.30);
 }
-#input1::placeholder,select,.btn1{
+input::placeholder,select,.btn1{
     color: rgba(19, 19, 24, 0.50);
 text-align: center;
 font-family: Mulish;
@@ -172,6 +172,27 @@ line-height: normal;
     padding-bottom: 10px;
 }
 /* Section 2 finished */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section3{
     text-align: center;
     
@@ -272,6 +293,23 @@ background-repeat: no-repeat;
     "ban ban ban band band band band band";
 }
 /* Section 3 finished */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .div20{
     display: flex;
     justify-content: space-between;
@@ -347,135 +385,6 @@ padding: 32px;
 margin: 24px 300px 0px ;
 
 }
-/* Section 4 finished */
-
-.section5{
-    display: flex;
-    gap: 30px;
-
-}
-
-
-.div25{
-    width: 440px;
-    height: 422px;
-    flex-shrink: 0;
-    border-radius: 16px;
-    border: 1px solid #FF5400;
-    padding: 40px;
-
-}
-.title25{
-    color: #131318;
-font-family: Mulish;
-font-size: 24px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-}
-
-.para33{
-    width: 350px;
-    padding-bottom: 24px;
-}
-
-#input25{
-    color: rgba(19, 19, 24, 0.30);
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 393px;
-height: 52px;
-flex-shrink: 0;
-border-radius: 8px;
-background: rgba(19, 19, 24, 0.05);
-border: none;
-margin-bottom: 16px;
-}
-
-#input26{
-    color: rgba(19, 19, 24, 0.30);
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 393px;
-    height: 52px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background: rgba(19, 19, 24, 0.05);
-    flex-shrink: 0;
-    border: none;
-    margin-bottom: 24px;
-    
-}
- #input25::placeholder,#input26::placeholder{
- padding-left: 20px;
-} 
-.btn25{
-    color: #FFF;
-text-align: center;
-font-family: Mulish;
-font-size: 20px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-width: 393px;
-height: 52px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #FF5400;
-border: none;
-}
-.div26{
-    width: 672px;
-height: 422px;
-flex-shrink: 0;
-border-radius: 16px;
-}
-.btn26{
-    position: relative;
-    top: -56%;
-    left:45% ;
-
-   text-align: center;
-    width: 354px;
-height: 180px;
-transform: rotate(-19.628deg);
-flex-shrink: 0;
-border-radius: 16px;
-background: #FF5400;
-border: none;
-}
-.img25{
-    width: 672px;
-height: 500px;
-
-}
-.para30{
-    color: #FFF;
-text-align: center;
-font-family: Mulish;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-bottom: 0px;
-
-}
-.para31{
-    color: #FFF;
-font-family: Mulish;
-font-size: 32px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-}
-/* Section 5 finished */
- 
 
 
 
@@ -484,69 +393,6 @@ line-height: normal;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- .footer{
-    position: absolute;
-    right: 0.01%;
-    width: 1520px;
-height: 502px;
-flex-shrink: 0;
-background: rgba(19, 19, 24, 0.05);
-
-
-
-}
-.para50{
-    width: 769px;
-    text-align: center;
-    margin: 15px auto 33px;
-
-}
-.icons{
-    display: flex;
-    gap: 40px;
-    text-align: center;
-    padding-bottom: 73px;
-}
-.para51{
-    font-weight: 300;
-}
-.hr{width: 872px;
-    height: 1px; background: rgba(19, 19, 24, 0.10); margin-bottom: 50px;
-    
-
-}
-.div99{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 110px auto;
-}
 
 
 
@@ -576,7 +422,7 @@ background: rgba(19, 19, 24, 0.05);
 
 /* media   query */
 @media screen and (max-width:576px) {
-    .body1{
+    body{
         margin:0px 20px  ;
         margin-top: 50px;
 }
@@ -738,156 +584,6 @@ margin: 10px auto;
     "ban"
     "band";}
 /*  Section 3 */
-
-
-.title15{
-    font-size: 20px;
-    padding-bottom: 2px; 
-}
-.para20{
-    font-size: 14px;
-    line-height: 24px;
-    padding-bottom: 0px;
-    width: 309px;
-}
-.div20{
-    flex-direction: column;
-    gap: 15px;
-}
-.div21,.div22{
-    width: 295px;
-  height: 289px;
-    flex-shrink: 0;
-    margin: 0 auto;
-}
-.img20{
-    width: 48px;
-height: 48px;
-flex-shrink: 0;
-padding-bottom: 6px;
-margin-top: 15px;
-}
-.title20{
-    font-size: 20px; 
-    padding-bottom: 6px;
-}
-
-.para21{
-    width: 271px;
-    font-size: 14px;
-    line-height: 24px; 
-}
-
-.div23{
-    padding: 10px;
-margin: 10px auto;
-width: 335px; 
-padding-left: 36px; ;}
-
-/* section 4 finished */
-.section5{
-    display: grid;
-    gap: 16px;
-    margin-bottom: -15px;
-}
-
-.div25{
-  width: 335px;
-height: 429px;
-padding: 10px;
-margin:2px auto;
-
-}
-.div26{
-    width: 335px;
-height: 429px;
-flex-shrink: 0;
-margin:2px auto;
-
-
-}
-.img25{
-    width: 365px;
-    height: 350px;
-    flex-shrink: 0; 
-    margin-left: -13px;
-    
-
-}
-#input25,#input26,.btn25{
-width: 280px;
-}
-.btn26{
-    width: 214.023px;
-height: 100px;
-top: -32%;
-left: 39%;
-
-}
-.para30{
-    font-size: 15.854px;
-}
-.para31{
-    font-size: 21.138px;
-}
-/* Section 5 closed */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer{
-    position: absolute;
-    width: 479px;
-height: 309px;
-flex-shrink: 0;
-transform: translateX(-0.1px);
-
-
-}
-.div99{
-    padding: 30px auto;
-}
-.para50{
-    width: 287px;
-    font-size: 14px;
-    line-height: 24px;
-    margin: 15px 44px;
-}
-.icons{
-    padding-bottom: 20px;
-}
-.hr{
-    width: 290px;
-height: 1px;
-margin-bottom: 24px;
-}
-.para51{
-    font-size: 12px;
-}
-/* footer finished */
-
-
-
-
-
-
-
-
 
 
 
